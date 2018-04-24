@@ -1,10 +1,11 @@
 {
   "name": "node-tokei",
   "description": "A program that allows you to count your code, quickly. Node.js wrapper for Tokei library http://tokei.rs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
   "main": "dist/index.js",
   "license": "MIT",
+  "repository": "https://github.com/pthm/node-tokei",
   "keywords": [
     "tokei",
     "loc",
