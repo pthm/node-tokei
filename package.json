@@ -1,0 +1,30 @@
+{
+  "name": "node-tokei",
+  "description": "A program that allows you to count your code, quickly. Node.js wrapper for Tokei library http://tokei.rs",
+  "version": "1.0.0",
+  "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "keywords": [
+    "tokei",
+    "loc",
+    "lines",
+    "of",
+    "code"
+  ],
+  "scripts": {
+    "start": "$(yarn bin)/ts-node src/index.ts",
+    "prepublishOnly": "yarn compile",
+    "compile": "tsc -p ."
+  },
+  "files": [
+    "dist/**/*",
+    "binaries/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "ts-node": "^6.0.0",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {}
+}
