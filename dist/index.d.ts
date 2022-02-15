@@ -10,6 +10,7 @@ export interface TokeiResult {
     code: number;
     comments: number;
     stats: TokeiStat[];
+    lines: number;
 }
 export default function tokei(paths: string[] | string, exclude?: string[] | string): Promise<{
     [language: string]: TokeiResult;
